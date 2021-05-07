@@ -1,6 +1,5 @@
 
-version: '1'
-
+version: '3.9'
 services:
   homecook-app:
     build: '.'
