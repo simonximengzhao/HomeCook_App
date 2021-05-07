@@ -1,0 +1,10 @@
+
+version: '1'
+
+services:
+  homecook-app:
+    build: '.'
+    tty: true
+    stdin_open: true
+    ports:
+      - '8081:8081'

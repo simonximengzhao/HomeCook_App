@@ -1,4 +1,6 @@
 {
+  "name": "homecook-app",
+  "version": "1.0.0",
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
@@ -17,5 +19,20 @@
     "passport-local-mongoose": "^6.1.0",
     "path": "^0.12.7",
     "uuid": "^8.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonximengzhao/HomeCook_App.git"
+  },
+  "keywords": [
+    "homecook",
+    "aws",
+    "ec2",
+    "mongodb",
+    "react",
+    "express"
+  ],
+  "author": "Simon Zhao",
+  "license": "ISC",
+  "homepage": "https://github.com/simonximengzhao/HomeCook_App#readme"
 }
