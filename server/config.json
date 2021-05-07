@@ -1,0 +1,10 @@
+{
+    "recipe_api_url": "https://api.edamam.com/search",
+    "app_key": "44b170439f2a5bc2f353c5f29c6e5ac8",
+    "app_id": "743b7cfc",
+    "from": 0,
+    "to": 100,
+    "port": 8081,
+    "secretKey": "12345-67890-09876-54321",
+    "mongoUrl": "mongodb://localhost:27017/homecook"
+}
