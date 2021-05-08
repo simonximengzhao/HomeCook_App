@@ -5,7 +5,8 @@ const AboutContent = () => {
                 This website is a final project for EE599 Cloud Computing course at Viterbi School of Engineering at USC. The website is designed
                 by three graduate students: <a target='blank' href='https://www.linkedin.com/in/simon-zhao-a5035473/' rel="noreferrer">Simon Zhao</a>, 
                 <a target='blank' href='https://www.linkedin.com/in/hangqing-xu-4045bb129/' rel="noreferrer"> Hangqing Xu</a>, and <a target='blank' href='https://www.linkedin.com/in/yong-he-2096a0204/' rel="noreferrer">
-                Yong He</a>. The mission of this website is that every person can be a great homecook with the right recipes and the right ingredients. 
+                Yong He</a>. The mission of this website is that every person can be a great homecook with the right recipes and the right ingredients. This website is designed by following the MERN (MongoDB, Express, React, Node) 
+                stack structure.
             </p> 
 
             <p id='content'>
