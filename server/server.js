@@ -32,7 +32,7 @@ app.use(passport.initialize());
 // serve static files
 // app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public'));
-app.use('/api/images', express.static('images'));
+app.use('/api/images', express.static('public/images'));
 
 // set up routers
 app.use('/users', usersRouter);
