@@ -4,7 +4,8 @@ const whitelist = [
     'http://localhost:8081',
     'http://localhost:3000',
     'http://www.home-cook-recipes.com',
-    'https://www.home-cook-recipes.com'
+    'https://www.home-cook-recipes.com',
+    'http://50.18.30.115'
 ];
 var corsOptionsDelegate = (req, callback) => {
     var corsOptions;
