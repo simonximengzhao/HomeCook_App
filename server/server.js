@@ -35,10 +35,10 @@ app.use(express.static('public'));
 app.use('/api/images', express.static('public/images'));
 
 // set up routers
-app.use('/users', usersRouter);
-app.use('/search', searchRouter);
-app.use('/favorites', favoriteRouter);
-app.use('/comments',commentRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/search', searchRouter);
+app.use('/api/favorites', favoriteRouter);
+app.use('/api/comments',commentRouter);
 
 // ping
 app.route('/ping')
