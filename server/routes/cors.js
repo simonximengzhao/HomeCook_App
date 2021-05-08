@@ -1,6 +1,11 @@
 const cors = require('cors');
 
-const whitelist = ['http://localhost:8081', 'http://localhost:3000'];
+const whitelist = [
+    'http://localhost:8081',
+    'http://localhost:3000',
+    'http://www.home-cook-recipes.com',
+    'https://www.home-cook-recipes.com'
+];
 var corsOptionsDelegate = (req, callback) => {
     var corsOptions;
 
